@@ -31,6 +31,6 @@ test {
 	useJUnitPlatform()
 }
 
-war {
-    archiveName 'project.war'
+task doPack(type: War, dependsOn: []) {
+    archiveName 'demo.war'
 }
