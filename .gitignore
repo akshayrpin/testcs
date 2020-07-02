@@ -32,4 +32,12 @@ out/
 .vscode/
 
 *.class
-bin/*
+bin/
+build/
+target/
+.classpath
+.project
+.settings/
+build/
+WebContent/META-INF/context.xml
+*.log
